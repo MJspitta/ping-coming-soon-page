@@ -1,0 +1,85 @@
+:root {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  color: hsl(209, 33%, 12%);
+}
+
+h1 {
+  margin: 1.5rem 0 0.3rem;
+  font-weight: 700;
+}
+
+.heading {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+.subscribe {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+  padding: 16px;
+  border: 1px solid hsl(0, 0%, 59%);
+}
+input::placeholder {
+  color: hsl(0, 0%, 59%);
+}
+
+button {
+  width: 10rem;
+  height: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  border: none;
+}
+
+.dashboard-img {
+  width: 25rem;
+  margin-top: 2.5rem;
+}
+
+.socials {
+  margin: 1rem 0;
+}
+
+.socials i {
+  margin: 0 1rem 0 1rem;
+  color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(0, 0%, 89%);
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.socials i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  cursor: pointer;
+  transition: all ease-in .2s;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
