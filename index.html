@@ -42,9 +42,13 @@
           name="email"
           id="email"
           placeholder="Your email address"
+          pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
         />
         <button type="button">Notify Me</button>
       </form>
+      <p id="error"></p>
+      
 
       <img
         class="dashboard-img"
@@ -60,5 +64,7 @@
 
       <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
     </main>
+
+    <script src="./script.js"></script>
   </body>
 </html>

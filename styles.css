@@ -44,6 +44,14 @@ input::placeholder {
   color: hsl(0, 0%, 59%);
 }
 
+.error {
+  border: 1px solid red;
+}
+#error {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
 button {
   width: 10rem;
   height: 2rem;
@@ -52,6 +60,10 @@ button {
   background-color: hsl(223, 87%, 63%);
   color: white;
   border: none;
+}
+button:hover {
+  background-color: hsl(223, 100%, 88%);
+  cursor: pointer;
 }
 
 .dashboard-img {
