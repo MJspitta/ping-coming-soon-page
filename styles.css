@@ -95,3 +95,42 @@ button:hover {
   color: hsl(0, 0%, 59%);
   font-weight: 300;
 }
+
+@media screen and (max-width: 635px) {
+  main {
+    padding: 2rem 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .subscribe {
+    font-size: 0.75rem;
+  }
+
+  input {
+    width: 100%;
+    margin: 1rem 0 0.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .dashboard-img {
+    width: 100%;
+  }
+
+  .socials {
+    margin: 3rem 0 1rem;
+  }
+
+  .socials i {
+    font-size: 0.5rem;
+  }
+
+  .copyright {
+    font-size: 0.5rem;
+  }
+}
